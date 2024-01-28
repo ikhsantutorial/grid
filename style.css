@@ -1,0 +1,136 @@
+html{
+    background-color: rgb(240, 200, 92);
+}
+/* container1  */
+.grid-container1 {
+    display: grid;
+    grid-template-columns: [left] 1fr [middle1]1fr [middle2] 1fr [right];
+    grid-template-rows: repeat(1);
+    grid-gap: 20px;
+    background-color: #672fde;
+    padding: 10px;
+  }
+  
+  .Muhammad {
+    background-color: #fe1818;
+    border: 1px solid #0f0f0c;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .Ikhsan {
+    background-color: #10e01a;
+    border: 1px solid #01063a;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .Khalid {
+    background-color: #f684fa;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .Universitas {
+    background-color: #c9083b;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .Metamedia {
+    background-color: #f6f616;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .Sukses {
+    background-color: #15fa97;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+.grid-container1{
+    border: 10px dotted goldenrod;
+    display: grid;
+}
+/* container2 */
+.grid-container2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 0px 20px;
+    background-color: yellow;
+    padding: 0px;
+    margin: 0px;
+}
+.Jambu {
+    background-color: #0e8af6;
+    border: 1px solid #130909;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .Manggis {
+    background-color: #e41bf2;
+    border: 1px solid #01063a;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .Apel {
+    background-color: #096f3e;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .Durian {
+    background-color: #f70f7b;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .Anggur {
+    background-color: #18e8f7;
+    border: 1px solid rgb(0, 1, 1);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .Sirsak {
+    background-color: #10ebe0;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .grid-container2{
+    border: 10px dotted greenyellow;
+    display: grid;
+}
+/* container3 */
+.grid-container3{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2,1fr);
+  grid-gap: 0px ;
+  background-color: #51f51a;
+  padding: 0px;
+  margin: 0px;
+}
+.item {
+  background-color: #ddf716;
+  border: 1px solid #130909;
+  padding: 0px;
+  font-size: 30px;
+  text-align: center;
+}
+.grid-container3{
+  border: 10px dotted rgb(226, 18, 18);
+  display: grid;
+}
